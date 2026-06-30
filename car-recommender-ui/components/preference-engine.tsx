@@ -41,7 +41,7 @@ export default function PreferenceEngine({
       };
 
       const response = await fetch(
-        "http://localhost:8000/api/recommendations",
+        `${process.env.NEXT_PUBLIC_API_URL}/api/recommendations`,
         {
           method: "POST",
           headers: {

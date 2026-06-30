@@ -1,0 +1,1489 @@
+{
+    "cars": [
+        {
+            "id": "1",
+            "make": "Tata",
+            "model": "Safari",
+            "variant": "XT",
+            "price": 1080251,
+            "mileage_kmpl": 12.4,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 161.0,
+                "transmission": "Automatic",
+                "seats": 7,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "make": "Tata",
+            "model": "Safari",
+            "variant": "XE",
+            "price": 4852655,
+            "mileage_kmpl": 16.9,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 178.9,
+                "transmission": "DCT",
+                "seats": 7,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "make": "BMW",
+            "model": "X1",
+            "variant": "M Sport",
+            "price": 6881015,
+            "mileage_kmpl": 13.8,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 87.5,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "make": "Hyundai",
+            "model": "Creta",
+            "variant": "Magna",
+            "price": 4256100,
+            "mileage_kmpl": 17.4,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 85.0,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "make": "Honda",
+            "model": "Elevate",
+            "variant": "S",
+            "price": 1057783,
+            "mileage_kmpl": 13.9,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 136.3,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "make": "Honda",
+            "model": "CR-V",
+            "variant": "V",
+            "price": 2705550,
+            "mileage_kmpl": 14.7,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 119.7,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "make": "Toyota",
+            "model": "Camry",
+            "variant": "G",
+            "price": 6978523,
+            "mileage_kmpl": 16.1,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 139.8,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "make": "Hyundai",
+            "model": "Alcazar",
+            "variant": "Asta",
+            "price": 1179304,
+            "mileage_kmpl": 16.9,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 86.8,
+                "transmission": "CVT",
+                "seats": 8,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "make": "Honda",
+            "model": "Civic",
+            "variant": "VX",
+            "price": 5919115,
+            "mileage_kmpl": 14.3,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 209.1,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "make": "Hyundai",
+            "model": "Tucson",
+            "variant": "Magna",
+            "price": 2831401,
+            "mileage_kmpl": 16.2,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 105.0,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "make": "Tata",
+            "model": "Safari",
+            "variant": "XM",
+            "price": 3206434,
+            "mileage_kmpl": 16.7,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 114.3,
+                "transmission": "Automatic",
+                "seats": 8,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "make": "Tata",
+            "model": "Altroz",
+            "variant": "XZ+ #Dark",
+            "price": 5627362,
+            "mileage_kmpl": 12.6,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 200.0,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "make": "Hyundai",
+            "model": "Tucson",
+            "variant": "SX",
+            "price": 1035300,
+            "mileage_kmpl": 13.4,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 246.9,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "make": "Tata",
+            "model": "Safari",
+            "variant": "XZ+ #Dark",
+            "price": 4529035,
+            "mileage_kmpl": 15.0,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 165.9,
+                "transmission": "Automatic",
+                "seats": 7,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "make": "Tata",
+            "model": "Nexon EV",
+            "variant": "XZ+ #Dark",
+            "price": 1773822,
+            "mileage_kmpl": 5.9,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": null,
+                "horsepower": 335.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Electric"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "make": "BMW",
+            "model": "3 Series",
+            "variant": "Luxury Line",
+            "price": 942854,
+            "mileage_kmpl": 16.8,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 229.3,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "make": "Toyota",
+            "model": "Camry",
+            "variant": "VX",
+            "price": 3096612,
+            "mileage_kmpl": 15.9,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 249.1,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "make": "Tata",
+            "model": "Nexon",
+            "variant": "XZ",
+            "price": 5026462,
+            "mileage_kmpl": 14.1,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 129.2,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "make": "BMW",
+            "model": "X1",
+            "variant": "xDrive20i",
+            "price": 4338570,
+            "mileage_kmpl": 13.3,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 124.5,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "make": "Tata",
+            "model": "Nexon EV",
+            "variant": "XZ+ #Dark",
+            "price": 4227433,
+            "mileage_kmpl": 5.8,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": null,
+                "horsepower": 140.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Electric"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "make": "Hyundai",
+            "model": "Verna",
+            "variant": "SX(O)",
+            "price": 2922676,
+            "mileage_kmpl": 15.0,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 212.1,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "make": "Toyota",
+            "model": "RAV4",
+            "variant": "VX",
+            "price": 3998339,
+            "mileage_kmpl": 17.3,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 90.3,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "make": "Hyundai",
+            "model": "Verna",
+            "variant": "Asta",
+            "price": 7240670,
+            "mileage_kmpl": 15.8,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 154.9,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "make": "BMW",
+            "model": "i4",
+            "variant": "xDrive20i",
+            "price": 6712337,
+            "mileage_kmpl": 6.8,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": null,
+                "horsepower": 170.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Electric"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "make": "BMW",
+            "model": "3 Series",
+            "variant": "M Sport",
+            "price": 6495996,
+            "mileage_kmpl": 15.4,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 240.4,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "make": "Toyota",
+            "model": "Prius",
+            "variant": "VX",
+            "price": 4507413,
+            "mileage_kmpl": 16.8,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 211.2,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "make": "Toyota",
+            "model": "Prius",
+            "variant": "G",
+            "price": 2087607,
+            "mileage_kmpl": 12.7,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 245.5,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "make": "BMW",
+            "model": "i4",
+            "variant": "Luxury Line",
+            "price": 2324473,
+            "mileage_kmpl": 5.6,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": null,
+                "horsepower": 170.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Electric"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "make": "Hyundai",
+            "model": "Tucson",
+            "variant": "Sportz",
+            "price": 993281,
+            "mileage_kmpl": 12.0,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 122.1,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "make": "Hyundai",
+            "model": "Verna",
+            "variant": "Magna",
+            "price": 5452841,
+            "mileage_kmpl": 15.6,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 217.4,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "make": "Honda",
+            "model": "Amaze",
+            "variant": "S",
+            "price": 6283965,
+            "mileage_kmpl": 17.5,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 170.8,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "make": "Toyota",
+            "model": "RAV4",
+            "variant": "ZX",
+            "price": 4359433,
+            "mileage_kmpl": 18.4,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 215.6,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "make": "Toyota",
+            "model": "Camry",
+            "variant": "V",
+            "price": 6416649,
+            "mileage_kmpl": 13.5,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 176.1,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "make": "Hyundai",
+            "model": "Alcazar",
+            "variant": "SX(O)",
+            "price": 1055096,
+            "mileage_kmpl": 16.2,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 134.6,
+                "transmission": "CVT",
+                "seats": 7,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "make": "BMW",
+            "model": "X3",
+            "variant": "sDrive20d",
+            "price": 5592452,
+            "mileage_kmpl": 17.5,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 86.7,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "make": "BMW",
+            "model": "i4",
+            "variant": "xDrive20i",
+            "price": 5300904,
+            "mileage_kmpl": 5.9,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": null,
+                "horsepower": 200.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Electric"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "make": "Toyota",
+            "model": "RAV4",
+            "variant": "G",
+            "price": 6148452,
+            "mileage_kmpl": 11.5,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 96.1,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "make": "Tata",
+            "model": "Harrier",
+            "variant": "XZ",
+            "price": 1165497,
+            "mileage_kmpl": 14.4,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 174.5,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "make": "Honda",
+            "model": "Elevate",
+            "variant": "VX",
+            "price": 3214262,
+            "mileage_kmpl": 13.4,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 181.1,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "make": "Toyota",
+            "model": "Prius",
+            "variant": "G",
+            "price": 1045909,
+            "mileage_kmpl": 14.0,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 153.6,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "make": "Toyota",
+            "model": "Camry",
+            "variant": "V",
+            "price": 4049844,
+            "mileage_kmpl": 14.4,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 153.0,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "make": "Toyota",
+            "model": "Corolla",
+            "variant": "VX",
+            "price": 3065045,
+            "mileage_kmpl": 17.8,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 125.6,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "make": "Hyundai",
+            "model": "i20",
+            "variant": "Sportz",
+            "price": 5169337,
+            "mileage_kmpl": 17.2,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 212.5,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Rahul V."
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "make": "Honda",
+            "model": "Elevate",
+            "variant": "S",
+            "price": 1908961,
+            "mileage_kmpl": 11.6,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 212.2,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "John Doe"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Great family car, plenty of legroom and boot space.",
+                    "author": "Amit Sharma"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "make": "BMW",
+            "model": "3 Series",
+            "variant": "M Sport",
+            "price": 4178465,
+            "mileage_kmpl": 11.6,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 154.2,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "Sedan",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "make": "Hyundai",
+            "model": "Verna",
+            "variant": "SX",
+            "price": 1233808,
+            "mileage_kmpl": 18.0,
+            "safety_rating": 4.5,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 117.2,
+                "transmission": "CVT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Amit Sharma"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Elena R."
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "make": "Toyota",
+            "model": "Camry",
+            "variant": "VX",
+            "price": 6316525,
+            "mileage_kmpl": 15.5,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 2998,
+                "horsepower": 103.5,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "Hatchback",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Rahul V."
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "make": "Toyota",
+            "model": "RAV4",
+            "variant": "VX",
+            "price": 6393015,
+            "mileage_kmpl": 12.8,
+            "safety_rating": 3.0,
+            "specs": {
+                "engine_cc": 1197,
+                "horsepower": 103.0,
+                "transmission": "Automatic",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 4.0,
+                    "comment": "The infotainment system is a bit laggy sometimes.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Suspension is a little stiffer than I expected on bumpy roads.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "make": "Honda",
+            "model": "Elevate",
+            "variant": "V",
+            "price": 5235853,
+            "mileage_kmpl": 13.3,
+            "safety_rating": 5.0,
+            "specs": {
+                "engine_cc": 1998,
+                "horsepower": 232.7,
+                "transmission": "DCT",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Petrol"
+            },
+            "reviews": [
+                {
+                    "rating": 3.0,
+                    "comment": "Performance is top notch, accelerates smoothly.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Elena R."
+                },
+                {
+                    "rating": 5.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "John Doe"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "make": "BMW",
+            "model": "X3",
+            "variant": "M Sport",
+            "price": 5717952,
+            "mileage_kmpl": 12.6,
+            "safety_rating": 4.0,
+            "specs": {
+                "engine_cc": 1498,
+                "horsepower": 194.5,
+                "transmission": "Manual",
+                "seats": 5,
+                "body_style": "SUV",
+                "fuel_type": "Diesel"
+            },
+            "reviews": [
+                {
+                    "rating": 5.0,
+                    "comment": "Fuel efficiency is incredible, saving a ton on my daily commute.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 4.0,
+                    "comment": "Amazing handling and very smooth ride on highways.",
+                    "author": "Sarah Jenkins"
+                },
+                {
+                    "rating": 3.0,
+                    "comment": "The cabin is exceptionally quiet even at triple-digit speeds.",
+                    "author": "Sarah Jenkins"
+                }
+            ]
+        }
+    ]
+}

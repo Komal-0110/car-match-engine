@@ -2,46 +2,95 @@
 
 An intelligent car recommendation platform built using **FastAPI (Python 3.11+)** and **Next.js + TypeScript + Tailwind CSS**.
 
-CarMatch is a multi-criteria car recommendation engine that helps users find suitable vehicles based on:
+CarMatch is a multi-criteria vehicle recommendation engine that helps users discover suitable cars based on:
 
 - Budget
 - Number of seats
 - Body style preference
 - Fuel type preference
-- Custom importance weights (Budget, Efficiency, Safety)
+- User priority weights:
+  - Budget
+  - Efficiency
+  - Safety
 
-The backend applies filtering and MCDA (Multi-Criteria Decision Analysis) scoring to rank vehicles dynamically.
+The backend implements **MCDA (Multi-Criteria Decision Analysis)** based ranking to filter and score vehicles dynamically.
 
 ---
 
-# 🏗 Project Architecture
+# 🌐 Live Demo
 
-```text
-car-recommender-platform/
+## Frontend
+
+```
+https://car-recommender-ui.vercel.app
+```
+
+## Backend API
+
+```
+https://car-match-engine.onrender.com
+```
+
+## API Documentation
+
+```
+https://car-match-engine.onrender.com/docs
+```
+
+---
+
+# 🏗 Architecture
+
+```
+User
+ |
+ |
+Next.js Frontend (Vercel)
+ |
+ |
+REST API
+ |
+ |
+FastAPI Backend (Render)
+ |
+ |
+Recommendation Engine
+ |
+ |
+cars.json Dataset
+```
+
+---
+
+# 📂 Project Structure
+
+```
+car-match-engine/
 
 ├── car-recommender/                 # Backend (FastAPI)
 │
 │   ├── core/
-│   │   └── Configuration, exceptions
+│   │   └── Configuration & exceptions
 │   │
 │   ├── data/
 │   │   └── cars.json
 │   │
 │   ├── schemas/
-│   │   └── Pydantic request/response models
+│   │   └── Pydantic models
 │   │
 │   ├── services/
 │   │   ├── Repository layer
 │   │   └── Recommendation engine
 │   │
-│   └── main.py                      # FastAPI entry point
+│   ├── main.py
+│   └── requirements.txt
 │
 │
 └── car-recommender-ui/              # Frontend (Next.js)
 
     ├── app/
     │   └── page.tsx
-
+    │
     ├── components/
     │   ├── preference-engine.tsx
     │   ├── smart-shortlist.tsx
@@ -63,6 +112,7 @@ car-recommender-platform/
 - Python 3.11+
 - FastAPI
 - Pydantic V2
+- Uvicorn
 
 ## Installation
 
@@ -72,7 +122,7 @@ cd car-recommender
 python -m venv .venv
 ```
 
-Activate virtual environment:
+Activate environment:
 
 ### Windows
 
@@ -88,19 +138,19 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run Backend
+# ▶️ Run Backend Locally
 
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-Backend URL:
+Backend:
 
 ```
 http://localhost:8000
 ```
 
-Swagger API Documentation:
+Swagger:
 
 ```
 http://localhost:8000/docs
@@ -115,12 +165,28 @@ http://localhost:8000/docs
 - Node.js 18+
 - npm
 
-Install dependencies:
+Install:
 
 ```bash
 cd car-recommender-ui
 
 npm install
+```
+
+---
+
+# Environment Variables
+
+Create:
+
+```
+.env.local
+```
+
+Add:
+
+```env
+NEXT_PUBLIC_API_URL=https://car-match-engine.onrender.com
 ```
 
 ---
@@ -141,21 +207,21 @@ http://localhost:3000
 
 # 🔌 API Contract
 
-## POST Recommendation API
+## Recommendation API
 
-Endpoint:
+### POST
 
 ```
-POST /api/recommendations
+/api/recommendations
 ```
 
 ---
 
-## Request Body
+## Request
 
 ```json
 {
-  "max_budget": 1500000,
+  "max_budget": 3000000,
   "min_seats": 5,
   "body_styles": ["SUV"],
   "fuel_types": ["Electric"],
@@ -183,7 +249,6 @@ POST /api/recommendations
       "price": 1773822,
       "mileage_kmpl": 5.9,
       "safety_rating": 3,
-      "avg_review_rating": 3,
       "match_percentage": 58.33,
 
       "score_breakdown": {
@@ -200,36 +265,36 @@ POST /api/recommendations
 
 # 🔄 Application Flow
 
-```text
+```
 User selects preferences
 
-          ↓
+        ↓
 
-React State Management
+React state management
 
-          ↓
+        ↓
 
 POST /api/recommendations
 
-          ↓
+        ↓
 
-FastAPI Request Validation
+FastAPI validation (Pydantic)
 
-          ↓
+        ↓
 
-Filter Cars
+Filter vehicles
 
-          ↓
+        ↓
 
-Calculate Weighted Score
+Calculate MCDA weighted score
 
-          ↓
+        ↓
 
-Return Ranked Recommendations
+Rank recommendations
 
-          ↓
+        ↓
 
-Display Car Cards
+Display matched cars
 ```
 
 ---
@@ -239,21 +304,21 @@ Display Car Cards
 ## Backend
 
 - FastAPI REST API
-- Pydantic V2 validation
+- Pydantic request validation
 - In-memory repository pattern
 - Startup dataset validation
-- MCDA based recommendation engine
-- Dynamic scoring weights
-- Fast filtering pipeline
+- MCDA recommendation algorithm
+- Dynamic user weighting
+- Stateless API design
 
 ## Frontend
 
 - Interactive preference engine
 - Budget slider
 - Seat selection
-- Body type filtering
+- Body style filtering
 - Fuel type filtering
-- Match percentage display
+- Match percentage visualization
 - Responsive Tailwind UI
 - Dynamic recommendation cards
 
@@ -261,28 +326,33 @@ Display Car Cards
 
 # 🧠 Recommendation Algorithm
 
-Each vehicle receives scores based on:
+Each vehicle receives scores:
 
-### Budget Score
+## Budget Score
 
-How well the vehicle fits inside user's budget.
+Measures how well the car fits within user budget.
 
-### Efficiency Score
+## Efficiency Score
 
-Fuel efficiency / EV range comparison.
+Evaluates mileage / EV efficiency.
 
-### Safety Score
+## Safety Score
 
-Safety rating based comparison.
+Uses safety rating comparison.
 
-Final score:
+Final calculation:
 
 ```
 Final Score =
+
 (Budget Score × Budget Weight)
+
 +
+
 (Efficiency Score × Efficiency Weight)
+
 +
+
 (Safety Score × Safety Weight)
 ```
 
@@ -293,42 +363,48 @@ Vehicles are sorted by highest match percentage.
 # 🛡 Engineering Decisions
 
 - Backend owns recommendation logic
-- Frontend only handles user interaction
-- Strict API contract between frontend and backend
+- Frontend only manages user interaction
+- Strict frontend/backend contract
 - Dataset loaded once during application startup
-- Stateless recommendation API
-- Type-safe frontend models
+- Stateless recommendation endpoint
+- Type-safe TypeScript models
+- Production deployment using Vercel + Render
 
 ---
 
 # 🚀 Future Improvements
 
-- PostgreSQL integration
+- PostgreSQL persistence
 - Redis caching
-- User authentication
-- Personalized recommendation history
+- User accounts
+- Recommendation history
 - AI-based car explanation assistant
-- Real-time price updates
+- Real-time vehicle pricing
 
 ---
 
-# 👨‍💻 Tech Stack
+# 🧰 Tech Stack
 
-### Backend
+## Backend
 
 - Python
 - FastAPI
 - Pydantic
 - Uvicorn
 
-### Frontend
+## Frontend
 
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 
-### Data
+## Deployment
 
-- JSON based vehicle dataset
+- Vercel (Frontend)
+- Render (Backend)
+
+## Data
+
+- JSON vehicle dataset
 - In-memory processing

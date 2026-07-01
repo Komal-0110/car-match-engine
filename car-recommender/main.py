@@ -36,7 +36,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://localhost:5173",
+        "https://car-recommender-k5yb7ub8i-komalvaswani0110-5529s-projects.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
